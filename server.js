@@ -10,7 +10,8 @@ const port = process.env.port || config.app.port;
 app.get("/",(req,res)=>{
         res.send("server is running!!!");
 })
+app.use('/api',routes);
 // listning server port
 app.listen(port,()=>{
     console.log("server is running on port:",port);
-})
+});
