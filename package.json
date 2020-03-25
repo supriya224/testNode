@@ -1,0 +1,25 @@
+{
+  "name": "firstnode",
+  "version": "1.0.0",
+  "description": "this is the first node project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supriya224/testNode.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "puja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supriya224/testNode/issues"
+  },
+  "homepage": "https://github.com/supriya224/testNode#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
